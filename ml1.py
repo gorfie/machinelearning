@@ -43,10 +43,10 @@ new_y_prediction =  LR.predict(x_df)
 print(new_y_prediction)
 
 # Plot outputs
-#plt.scatter(x_test['Rooms'], y_test, color="black")
-#plt.plot(x_test['Rooms'], y_prediction, color="blue", linewidth=3)
+plt.scatter(x_test['Rooms'], y_test, color="black")
+plt.plot(x_test['Rooms'], y_prediction, color="blue", linewidth=3)
 
-#plt.xticks(())
-#plt.yticks(())
+plt.xticks(())
+plt.yticks(())
 
-#plt.show()
+plt.show()
